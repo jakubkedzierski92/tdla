@@ -1,0 +1,64 @@
+.list__button {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: teal;
+  color: white;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  cursor: grab;
+}
+
+.list__button--done {
+  background-color: teal;
+}
+
+.list__button--remove {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+}
+.form__newButtons {
+  display: flex;
+  background-color: transparent;
+  color: teal;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+.form__hiddenButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__newButtons:disabled {
+  color: black;
+}
+
+.button__transition {
+  transition: 1s;
+}
+
+.button__transition:hover {
+  color: hsl(180, 100%, 30%);
+  transform: scale(1.1);
+}
+.test {
+  display: flex;
+  width: 40%;
+  margin-right: 0px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .test {
+    width: 100%;
+  }
+}
+
+.test2 {
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  justify-content: flex-start;
+}

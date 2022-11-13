@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+body {
+  background-color: rgba(241, 239, 239, 0.909);
+}
