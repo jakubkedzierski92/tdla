@@ -24,6 +24,7 @@
   outline: none;
   border: none;
   margin: 5px;
+  cursor: pointer;
 }
 
 .form__hiddenButtons {
@@ -47,6 +48,7 @@
   transition: 1s;
   color: hsl(180, 100%, 30%);
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .button__setDone:hover {
