@@ -31,11 +31,34 @@
   justify-content: flex-end;
 }
 
-.form__newButtons:disabled {
+.button__setAllDone:disabled  {
+  color: black;
+  transition: none;
+  
+}
+.button__setDone{
+  display: flex;
+  background-color: transparent;
+  color: teal;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 5px;
+  transition: 1s;
+  color: hsl(180, 100%, 30%);
+  transform: scale(1.1);
+}
+
+.button__setDone:hover {
+  color: hsl(180, 100%, 30%);
+  transform: scale(1.1);
+}
+.button__setDone:disabled {
   color: black;
 }
 
 .button__transition {
+  
   transition: 1s;
 }
 

@@ -15,7 +15,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => {
       </button>
       <button
         onClick={setAllDone}
-        className={`button__transition form__newButtons`}
+        className={`button__setDone button__setAllDone`}
         disabled={tasks.every(({ done }) => done)}
       >
         {" "}
