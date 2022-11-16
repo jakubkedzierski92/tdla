@@ -32,12 +32,12 @@
   justify-content: flex-end;
 }
 
-.button__setAllDone:disabled  {
+/* .button__setAllDone:disabled  {
   color: black;
-  transition: none;
+  transition: none; 
   
-}
-.button__setDone{
+ } */
+.button__setDone {
   display: flex;
   background-color: transparent;
   color: teal;
@@ -46,8 +46,7 @@
   border: none;
   margin: 5px;
   transition: 1s;
-  color: hsl(180, 100%, 30%);
-  transform: scale(1.1);
+  color: teal;
   cursor: pointer;
 }
 
@@ -60,7 +59,6 @@
 }
 
 .button__transition {
-  
   transition: 1s;
 }
 
