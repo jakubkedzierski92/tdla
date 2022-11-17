@@ -1,21 +1,6 @@
-.list__button {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: teal;
-  color: white;
-  width: 25px;
-  height: 25px;
-  padding: 0;
-  cursor: grab;
-}
 
-.list__button--done {
-  background-color: teal;
-}
 
-.list__button--remove {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: white;
-}
+
 .form__newButtons {
   display: flex;
   background-color: transparent;
