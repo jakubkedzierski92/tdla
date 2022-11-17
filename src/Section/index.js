@@ -1,18 +1,20 @@
+import "./style.css";
+import {
+  StyledList,
+  SecondaryHeader,
+  TasksList,
+} from "./styled";
 
-import "./style.css"
-
-
-const Section = ({title, body, extraHeaderContent}) => ( 
-<section>
-<div className="list">
-<h2 className="list__header">{title}</h2>
-{extraHeaderContent}
-</div>
-<div className="list__tasks">
-<div className="form__hiddenButtons"></div>
-{body}
-</div>
-</section>
-)
+const Section = ({ title, body, extraHeaderContent }) => (
+  <section>
+    <StyledList>
+      <SecondaryHeader>{title}</SecondaryHeader>
+      {extraHeaderContent}
+    </StyledList>
+    <TasksList>
+      {body}
+    </TasksList>
+  </section>
+);
 
 export default Section;

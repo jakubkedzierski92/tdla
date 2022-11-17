@@ -16,6 +16,12 @@ html {
   flex-direction: column;
   margin: auto;
 }
+@media (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
 
 body {
   background-color: rgba(241, 239, 239, 0.909);
