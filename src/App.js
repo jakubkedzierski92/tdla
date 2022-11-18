@@ -4,7 +4,7 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Container from "./Container";
 import { useEffect, useState } from "react";
-import {BodyDiv} from "./styled.js"
+import {BodyDiv, Wrapper} from "./styled.js"
  
 function App() {
   const [hideDone, setHideDone] = useState(false);
@@ -54,6 +54,7 @@ function App() {
   }, [tasks]);
 
   return (
+    <Wrapper>
     <BodyDiv>
       <Container>
         <main className="container">
@@ -85,6 +86,7 @@ function App() {
         </main>
       </Container>
     </BodyDiv>
+    </Wrapper>
   );
 }
 
