@@ -7,13 +7,8 @@ import { useEffect, useState } from "react";
 import {BodyDiv} from "./styled.js"
  
 function App() {
-  const customerStorage = () => {
-    const storeTasks = localStorage.getItem("tasks");
-    const getTasks = JSON.parse(localStorage.getItem("tasks"));
-    return storeTasks ? getTasks : [];
-  };
   const [hideDone, setHideDone] = useState(false);
-  const [tasks, setTasks] = useState(customerStorage);
+  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks") || []));
 
   const toggleHideDone = () => {
     setHideDone((hideDone) => !hideDone);
