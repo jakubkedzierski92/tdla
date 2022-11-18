@@ -4,7 +4,8 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Container from "./Container";
 import { useEffect, useState } from "react";
-
+import {BodyDiv} from "./styled.js"
+ 
 function App() {
   const customerStorage = () => {
     const storeTasks = localStorage.getItem("tasks");
@@ -58,7 +59,7 @@ function App() {
   }, [tasks]);
 
   return (
-    <div>
+    <BodyDiv>
       <Container>
         <main className="container">
           <h1>Lista zadań</h1>
@@ -88,7 +89,7 @@ function App() {
           />
         </main>
       </Container>
-    </div>
+    </BodyDiv>
   );
 }
 
