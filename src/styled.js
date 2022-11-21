@@ -8,5 +8,7 @@ export const BodyDiv = styled.div`
 }
 `
 export const Wrapper = styled.div`
+
 background-color: rgba(241, 239, 239, 0.909);
+
 `
