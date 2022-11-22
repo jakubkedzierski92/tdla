@@ -4,7 +4,6 @@ export const StyledForm = styled.form`
   width: 100%;
   display: flex;
   align-items: center;
-
   @media (max-width: 767px) {
     flex-wrap: wrap;
   }
@@ -16,11 +15,9 @@ export const Input = styled.input`
   outline-color: teal;
   border: 1px solid #ccc;
   flex-basis: 100%;
-
   &:hover {
     border: 1px solid teal;
   }
-
   @media (max-width: 767px) {
     margin: 5px;
     flex-basis: 95%;
@@ -36,12 +33,10 @@ export const FormButton = styled.button`
   flex-basis: 70%;
   cursor: pointer;
   transition: 1s;
-
   &:hover {
     color: hsl(180, 100%, 30%);
     transform: scale(1.1);
   }
-
   @media (max-width: 767px) {
     margin: 5px;
     flex-basis: 95%;
@@ -53,7 +48,6 @@ export const DivButton1 = styled.div`
   width: 40%;
   margin-right: 0px;
   justify-content: flex-end;
-
   @media (max-width: 767px) {
     width: 100%;
   }

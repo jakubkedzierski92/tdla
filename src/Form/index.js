@@ -1,5 +1,3 @@
-
-
 import React, { useState, useRef } from "react";
 import { DivButton1, DivButton2, FormButton, Input, StyledForm } from "./styled";
 

@@ -2,13 +2,14 @@ import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
-import Container from "./Container";
+import { StyledContainer } from "./styled.js";
 import { useState } from "react";
-import { BodyDiv, Wrapper } from "./styled.js";
 import { useTasks } from "./useTasks.js";
+
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
+  
 
   const toggleHideDone = () => {
     setHideDone((hideDone) => !hideDone);
@@ -18,9 +19,8 @@ function App() {
     useTasks();
 
   return (
-    <Wrapper>
-      <BodyDiv>
-        <Container>
+    
+        <StyledContainer>
           <main className="container">
             <h1>Lista zadań</h1>
             <Section
@@ -48,9 +48,8 @@ function App() {
               }
             />
           </main>
-        </Container>
-      </BodyDiv>
-    </Wrapper>
+        </StyledContainer>
+    
   );
 }
 

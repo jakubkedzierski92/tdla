@@ -1,16 +1,15 @@
-
 import {
-  StyledList,
+  StyledListContainer,
   SecondaryHeader,
   TasksList,
 } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
   <section>
-    <StyledList>
+    <StyledListContainer>
       <SecondaryHeader>{title}</SecondaryHeader>
       {extraHeaderContent}
-    </StyledList>
+    </StyledListContainer>
     <TasksList>
       {body}
     </TasksList>

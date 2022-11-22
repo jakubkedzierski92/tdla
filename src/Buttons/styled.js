@@ -5,24 +5,9 @@ export const HiddenButtons = styled.div`
   justify-content: flex-end;
 `
 
-export const HideDoneButton = styled.button`
- display: flex;
-  background-color: transparent;
-  color: teal;
-  padding: 10px;
-  outline: none;
-  border: none;
-  margin: 5px;
-  transition: 1s;
-  cursor: pointer;
-  
-  &:hover {
-    color: hsl(180, 100%, 30%);
-  transform: scale(1.1);
-  }
-`
 
-export const SetDoneButton = styled.button`
+
+export const Button = styled.button`
 display: flex;
   background-color: transparent;
   color: teal;
@@ -33,14 +18,12 @@ display: flex;
   transition: 1s;
   color: teal;
   cursor: pointer;
-
-
 &:hover {
   color: hsl(180, 100%, 30%);
   transform: scale(1.1);
 }
 &:disabled {
   color: black;
+  transform: none;
 }
-
 `
