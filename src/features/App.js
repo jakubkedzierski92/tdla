@@ -1,10 +1,10 @@
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
-import Section from "./Section";
-import { StyledContainer } from "./styled.js";
+import Section from "../common/Section";
+import { StyledContainer } from "../styled.js";
 import { useState } from "react";
-import { useTasks } from "./useTasks.js";
+import { useTasks } from "../useTasks.js";
 
 
 function App() {
