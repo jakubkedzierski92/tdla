@@ -5,7 +5,8 @@ import Section from "../common/Section";
 import { StyledContainer } from "../styled.js";
 import { useState } from "react";
 import { useTasks } from "../useTasks.js";
-
+// import { useSelector } from "react-redux"
+// import { selectTasks } from "./tasksSlice";
 
 function Tasks() {
   const [hideDone, setHideDone] = useState(false);
@@ -14,6 +15,8 @@ function Tasks() {
   const toggleHideDone = () => {
     setHideDone((hideDone) => !hideDone);
   };
+
+  // const { tasks } = useSelector(selectTasks)
 
   const { tasks, toggleTaskDone, removeTask, addNewTask, setAllDone } =
     useTasks();
