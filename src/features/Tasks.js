@@ -1,5 +1,5 @@
 import Form from "./Form";
-import Tasks from "./Tasks";
+import TasksList from "./TasksList";
 import Buttons from "./Buttons";
 import Section from "../common/Section";
 import { StyledContainer } from "../styled.js";
@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useTasks } from "../useTasks.js";
 
 
-function App() {
+function Tasks() {
   const [hideDone, setHideDone] = useState(false);
   
 
@@ -31,7 +31,7 @@ function App() {
             <Section
               title={"Zadania do zrobienia"}
               body={
-                <Tasks
+                <TasksList
                   tasks={tasks}
                   hideDone={hideDone}
                   removeTask={removeTask}
@@ -53,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tasks;
