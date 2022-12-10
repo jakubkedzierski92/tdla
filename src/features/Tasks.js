@@ -3,12 +3,10 @@ import TasksList from "./TasksList";
 import Buttons from "./Buttons";
 import Section from "../common/Section";
 import { StyledContainer } from "../styled.js";
-import { useDispatch } from "react-redux";
 
 function Tasks() {
 
-  const dispatch = useDispatch();
-  
+
   return (
     <StyledContainer>
       <main className="container">
