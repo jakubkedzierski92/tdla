@@ -43,7 +43,7 @@ export const FormButton = styled.button`
   }
 `;
 
-export const DivButton1 = styled.div`
+export const HiddenDiv1 = styled.div`
   display: flex;
   width: 40%;
   margin-right: 0px;
@@ -53,7 +53,7 @@ export const DivButton1 = styled.div`
   }
 `;
 
-export const DivButton2 = styled.div`
+export const HiddenDiv2= styled.div`
   display: flex;
   width: 100%;
   margin-right: 0px;

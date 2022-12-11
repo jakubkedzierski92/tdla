@@ -11,6 +11,7 @@ export const StyledListContainer = styled.div`
   margin: 2px 0px;
   margin-bottom: 0px;
   background-color: white;
+
   @media (max-width: 767px) {
     max-width: 90%;
     flex-wrap: wrap;
@@ -23,6 +24,7 @@ export const SecondaryHeader = styled.header`
   margin: 10px;
   font-size: 24px;
   font-weight: bold;
+
   @media (max-width: 767px) {
     text-align: center;
   }
@@ -35,6 +37,7 @@ export const TasksList = styled.div`
   width: 100%;
   padding: 5px;
   min-height: 55px;
+  
   @media (max-width: 767px) {
     max-width: 266px;
     width: 90%;

@@ -5,8 +5,6 @@ import Section from "../common/Section";
 import { StyledContainer } from "../styled.js";
 
 function Tasks() {
-
-
   return (
     <StyledContainer>
       <main className="container">

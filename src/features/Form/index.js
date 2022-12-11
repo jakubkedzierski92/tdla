@@ -2,7 +2,7 @@ import { nanoid } from "@reduxjs/toolkit";
 import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import  { addTask }  from "../tasksSlice";
-import { DivButton1, DivButton2, FormButton, Input, StyledForm } from "./styled";
+import { HiddenDiv1, HiddenDiv2, FormButton, Input, StyledForm } from "./styled";
 
 const Form = () => {
     const [newTaskContent, setNewTaskContent] = useState("")
@@ -26,7 +26,7 @@ const Form = () => {
 
     return (
         <StyledForm onSubmit={onFormSubmit}>
-        <DivButton2> 
+        <HiddenDiv2> 
         <Input 
         ref={inputRef}
         value={newTaskContent}
@@ -34,12 +34,12 @@ const Form = () => {
         autoFocus 
         required
         onChange={(event) => setNewTaskContent(event.target.value) } /> 
-        </DivButton2>
-        <DivButton1>
+        </HiddenDiv2>
+        <HiddenDiv1>
             <FormButton>
                 dodaj zadanie
             </FormButton>
-            </DivButton1>
+            </HiddenDiv1>
        </StyledForm>
     )
 }

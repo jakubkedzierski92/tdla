@@ -18,6 +18,7 @@ display: flex;
   transition: 1s;
   color: teal;
   cursor: pointer;
+  
 &:hover {
   color: hsl(180, 100%, 30%);
   transform: scale(1.1);
