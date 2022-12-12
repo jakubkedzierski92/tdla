@@ -4,6 +4,7 @@ export const StyledForm = styled.form`
   width: 100%;
   display: flex;
   align-items: center;
+
   @media (max-width: 767px) {
     flex-wrap: wrap;
   }
@@ -20,7 +21,7 @@ export const Input = styled.input`
   }
   @media (max-width: 767px) {
     margin: 5px;
-    flex-basis: 95%;
+    flex-basis: 100%;
   }
 `;
 
@@ -39,7 +40,7 @@ export const FormButton = styled.button`
   }
   @media (max-width: 767px) {
     margin: 5px;
-    flex-basis: 95%;
+    flex-basis: 100%;
   }
 `;
 
@@ -48,6 +49,7 @@ export const HiddenDiv1 = styled.div`
   width: 40%;
   margin-right: 0px;
   justify-content: flex-end;
+  
   @media (max-width: 767px) {
     width: 100%;
   }

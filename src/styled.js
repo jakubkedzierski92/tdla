@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.main`
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
   padding: 20px;
   display: flex;
@@ -10,6 +10,6 @@ export const StyledContainer = styled.main`
   background-color: rgba(241, 239, 239, 0.909);
   
   @media (max-width: 767px) {
-    max-width: 90%;
+    max-width: 100%;
   }
 `;

@@ -5,8 +5,6 @@ export const HiddenButtons = styled.div`
   justify-content: flex-end;
 `
 
-
-
 export const Button = styled.button`
 display: flex;
   background-color: transparent;

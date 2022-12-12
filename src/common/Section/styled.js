@@ -5,7 +5,7 @@ export const StyledListContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid #ccc;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
   padding: 5px;
   margin: 2px 0px;
@@ -13,7 +13,7 @@ export const StyledListContainer = styled.div`
   background-color: white;
 
   @media (max-width: 767px) {
-    max-width: 90%;
+    max-width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
   }
@@ -33,14 +33,13 @@ export const SecondaryHeader = styled.header`
 export const TasksList = styled.div`
   background-color: white;
   border: 1px solid #ccc;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
   padding: 5px;
   min-height: 55px;
   
   @media (max-width: 767px) {
-    max-width: 266px;
-    width: 90%;
+    width: 100%;
     padding: 0px;
   }
 `;

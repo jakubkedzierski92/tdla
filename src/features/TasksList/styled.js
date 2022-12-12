@@ -6,7 +6,6 @@ export const List = styled.ul`
 
   @media (max-width: 767px) {
     padding: 10px;
-    margin: 5px;
     width: 100%;
   }
 `;
@@ -21,8 +20,8 @@ export const ListItem = styled.li`
   word-break: break-all;
 
   @media (max-width: 767px) {
-    max-width: 255px;
-    width: 90%;
+    margin: 0px;
+    width: 100%;
     padding: 5px;
     align-items: flex-start;
     word-break: break-all;
@@ -33,8 +32,10 @@ export const ListItem = styled.li`
       display: none;
     `}
 `;
-  export const Content = styled.span`
-    ${({ done }) => done && css`
+export const Content = styled.span`
+  ${({ done }) =>
+    done &&
+    css`
       text-decoration: line-through;
     `}
 `;
@@ -47,7 +48,7 @@ export const Button = styled.button`
   height: 25px;
   padding: 0;
   cursor: grab;
-  
+
   ${({ done }) =>
     done &&
     css`
