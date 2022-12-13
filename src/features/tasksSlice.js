@@ -27,10 +27,10 @@ const tasksSlice = createSlice({
       state.tasks = state.tasks.filter((task) => task.id !== action.payload);
     },
     fetchExamples: () => {},
-    
-    setTasks: (state, { payload:tasks }) => {
-      state.tasks = tasks
-    }
+
+    setTasks: (state, { payload: tasks }) => {
+      state.tasks = tasks;
+    },
   },
 });
 
