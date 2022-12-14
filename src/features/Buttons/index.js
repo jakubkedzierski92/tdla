@@ -20,7 +20,7 @@ const Buttons = () => {
       Dodaj przykładowe zadania
     </Button>
       <Button onClick={() => dispatch(toggleHideDone())}>
-        {hideDone ? "Pokaż ukonczone" : "Ukryj ukonczone"}
+        {hideDone ? "Pokaż ukonczone" : "Ukryj ukończone"}
       </Button>
       <Button
         onClick={() => dispatch(setAllDone())}
