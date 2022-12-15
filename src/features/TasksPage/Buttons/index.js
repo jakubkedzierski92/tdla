@@ -1,7 +1,7 @@
 
 import { HiddenButtons, Button } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
-import { selectTasks, toggleHideDone, setAllDone, fetchExamples} from "../tasksSlice";
+import { selectTasks, toggleHideDone, setAllDone, fetchExamples} from "../../tasksSlice";
 
 const Buttons = () => {
 

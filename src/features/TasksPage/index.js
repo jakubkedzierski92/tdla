@@ -1,10 +1,10 @@
 import Form from "./Form";
 import TasksList from "./TasksList";
 import Buttons from "./Buttons";
-import Section from "../common/Section";
-import { StyledContainer } from "../styled.js";
+import Section from "../../common/Section";
+import { StyledContainer } from "../../styled.js";
 
-function Tasks() {
+function TasksPage() {
   return (
     <StyledContainer>
       <main className="container">
@@ -21,4 +21,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
