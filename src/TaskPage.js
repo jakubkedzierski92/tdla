@@ -11,8 +11,8 @@ function TaskPage() {
     <StyledContainer>
       <main className="container">
         <h1>Szczegóły zadania</h1>
-        <Section title={task.content}
-         body={<></>} 
+        <Section title={task ? task.content : "nie znaleziono zadania :("}
+         body={<><strong>Ukończono:</strong>{task.done ? "tak" : "nie"}</>} 
         />
       </main>
     </StyledContainer>

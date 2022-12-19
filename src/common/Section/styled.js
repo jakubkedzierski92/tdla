@@ -38,6 +38,7 @@ export const TasksList = styled.div`
   padding: 5px;
   min-height: 55px;
   
+  
   @media (max-width: 767px) {
     width: 100%;
     padding: 0px;
