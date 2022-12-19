@@ -13,3 +13,18 @@ export const StyledContainer = styled.main`
     max-width: 100%;
   }
 `;
+
+export const StyledNavigation = styled.ul`
+background-color: teal;
+width: 100%;
+padding: 10px;
+margin-top: 0px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+`
+
+export const StyledItem = styled.li`
+margin-right:10px;
+`

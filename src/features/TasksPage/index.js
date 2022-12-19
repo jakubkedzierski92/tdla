@@ -2,7 +2,8 @@ import Form from "./Form";
 import TasksList from "./TasksList";
 import Buttons from "./Buttons";
 import Section from "../../common/Section";
-import { StyledContainer } from "../../styled.js";
+import { StyledContainer, StyledNavigation } from "../../styled.js";
+import Search from "./Search";
 
 function TasksPage() {
   return (
@@ -10,6 +11,11 @@ function TasksPage() {
       <main className="container">
         <h1>Lista zadań</h1>
         <Section title="Dodaj zadanie" body={<Form />} />
+
+        <Section
+          title={"Wyszukiwarka"}
+          body ={<Search />}
+          />
 
         <Section
           title={"Zadania do zrobienia"}

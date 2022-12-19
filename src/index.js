@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { GlobalStyle } from "./GlobalStyle";
 import { App } from "./App";
 import store from "./store";
+import { StyledNavigation } from "./styled";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
