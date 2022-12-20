@@ -4,7 +4,6 @@ import Button from "../Button";
 import {
   toggleHideDone,
   setAllDone,
-  fetchExamples,
   selectHideDone,
   selectAllTaskDone,
   selectAreTasksEmpty,

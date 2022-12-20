@@ -39,7 +39,9 @@ list-style-type: none;
 `
 export const StyledNavLink = styled(NavLink)`
 text-decoration: none;
+color: white;
 &.active {
   color: white;
+  font-weight: bold;
 }
 `
