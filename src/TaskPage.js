@@ -3,7 +3,7 @@ import { StyledContainer } from "./styled";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getTaskById } from "./features/tasksSlice";
-import { useLocation } from "react-router-dom";
+
 
 function TaskPage() {
   const { id } = useParams();
@@ -11,7 +11,7 @@ function TaskPage() {
 
   return (
     <StyledContainer>
-      <main className="container">
+      <main>
         <h1>Szczegóły zadania</h1>
         <Section
           title={task ? task.content : "nie znaleziono zadania :("}

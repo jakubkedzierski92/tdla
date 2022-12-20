@@ -13,7 +13,7 @@ export const App = () => (
             <StyledNavLink to="/zadania">Zadania</StyledNavLink>
           </StyledItem>
           <StyledItem>
-            <StyledNavLink to="/autor">o autorze</StyledNavLink>
+            <StyledNavLink to="/autor">O autorze</StyledNavLink>
           </StyledItem>
         </StyledNavigation>
         <Switch>

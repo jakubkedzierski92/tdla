@@ -34,7 +34,7 @@ align-content: center;
 `
 
 export const StyledItem = styled.li`
-margin-right:10px;
+margin-right:20px;
 list-style-type: none;
 `
 export const StyledNavLink = styled(NavLink)`
