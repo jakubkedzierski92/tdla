@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getTaskById } from "./features/tasksSlice";
 
-
 function TaskPage() {
   const { id } = useParams();
   const task = useSelector((state) => getTaskById(state, id));

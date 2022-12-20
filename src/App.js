@@ -17,7 +17,7 @@ export const App = () => (
           </StyledItem>
         </StyledNavigation>
         <Switch>
-          <Route path="/zadania/:id">
+          <Route path="/zadania/:id" >
             <TaskPage />
           </Route>
           <Route path="/zadania">
