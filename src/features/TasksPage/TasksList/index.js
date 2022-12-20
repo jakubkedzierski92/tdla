@@ -2,7 +2,6 @@ import { List, ListItem, Content, Button, TaskLink } from "./styled";
 import { useSelector } from "react-redux";
 import { toggleTaskDone, removeTask, selectHideDone, selectTasksByQuery } from "../../tasksSlice";
 import { useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const TasksList = () => {

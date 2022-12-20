@@ -5,4 +5,5 @@ display: grid;
 grid-template-columns: 1fr;
 margin: 10px;
 margin-left: 0px;
+margin-right: 0px;
 `
