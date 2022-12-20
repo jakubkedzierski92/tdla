@@ -1,4 +1,6 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+
 
 export const StyledContainer = styled.main`
   max-width: 900px;
@@ -23,8 +25,21 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-content: center;
+
+@media (max-width: 767px) {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const StyledItem = styled.li`
 margin-right:10px;
+list-style-type: none;
+`
+export const StyledNavLink = styled(NavLink)`
+text-decoration: none;
+&.active {
+  color: white;
+}
 `
