@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/tdla/static/js/main.68d38ce7.js",
+    "main.js": "/tdla/static/js/main.e1ee0c27.js",
     "static/js/787.88924b9d.chunk.js": "/tdla/static/js/787.88924b9d.chunk.js",
     "index.html": "/tdla/index.html",
-    "main.68d38ce7.js.map": "/tdla/static/js/main.68d38ce7.js.map",
+    "main.e1ee0c27.js.map": "/tdla/static/js/main.e1ee0c27.js.map",
     "787.88924b9d.chunk.js.map": "/tdla/static/js/787.88924b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.68d38ce7.js"
+    "static/js/main.e1ee0c27.js"
   ]
 }
