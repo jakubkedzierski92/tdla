@@ -6,6 +6,9 @@ https://jakubkedzierski92.github.io/tdla/
 
 Hi! This app will help you organize Your daily routine. You can add Your tasks to the list, set them done when you finished and hide them!
 
+# Short introduction
+![intro](https://media0.giphy.com/media/a2DClZZoUdWTj7Bmes/giphy.gif?cid=790b7611a9b5a72f9d7f797eb24f26d898038d99c56ec91e&rid=giphy.gif&ct=g)
+
 ## Technologies
 
 - Semantic HTML
@@ -13,6 +16,9 @@ Hi! This app will help you organize Your daily routine. You can add Your tasks t
 - Immutability
 - css
 - react.js
+- redux - saga
+- react toolkits
+- react router
 
 ## Available Scripts
 
