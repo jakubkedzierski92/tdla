@@ -17,7 +17,7 @@ Hi! This app will help you organize Your daily routine. You can add Your tasks t
 - css
 - react.js
 - redux - saga
-- react toolkits
+- redux toolkit
 - react router
 
 ## Available Scripts
